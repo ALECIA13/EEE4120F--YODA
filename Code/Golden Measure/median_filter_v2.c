@@ -30,6 +30,13 @@ typedef struct {
  * @param height Height of the image in pixels.
  * @param width  Width of the image in pixels.
  */
+ 
+ 
+ 
+ 04:38:03
+ 
+ 
+ 
 void MedianFilter(
     RGB input[MAX_IMG_HEIGHT][MAX_IMG_WIDTH],
     RGB output[MAX_IMG_HEIGHT][MAX_IMG_WIDTH],

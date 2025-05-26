@@ -1,0 +1,18 @@
+Time resolution is 1 ps
+Loading RGB image from 'input_image.mem'
+mem[0]=27, mem[1]=c8, mem[2]=ff
+Starting testbench...
+First grayscale pixel at time 55000 ns
+First filtered pixel (index 0): 80 at time 65000 ns
+Last filtered pixel (index 3599): 9d at time 108035000 ns
+Filtered output written to filtered.mem
+Total output pixels: 3600
+------ Pipeline Metrics ------
+Latency (input to first output): 4 cycles, 45 ns
+Total time (input to last output): 10801 cycles, 108015 ns
+Throughput: 0.3333 pixels/clock, 0.0333 pixels/ns
+------ Module-specific Metrics ------
+Grayscale module: 10797 cycles, 107970 ns for 3600 pixels
+Median filter module: 10797 cycles, 107970 ns for 3600 pixels
+-----------------------------
+$finish called at time : 108065 ns : File "C:/Users/zolil/Verilog_modules2/Verilog_modules2.srcs/sources_1/new/tb.v" Line 101
