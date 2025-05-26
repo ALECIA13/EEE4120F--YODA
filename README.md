@@ -1,1 +1,1 @@
-# EEE4120F--YODA: Image Edge Detection Processing
+# EEE4120F--YODA: Image Edge Detection Processing (IEDP)
